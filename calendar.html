@@ -4,6 +4,46 @@
         <title>Project Catch-Up: Home</title>
     </head>
     <body>
-        <img src="./images/calendar.png">
+        <div class="topnav">
+            <a class="active" href="./home.html">Home</a>
+            <a href="./enter_meeting.html">Join a Meeting</a>
+            <a href="./assignments.html">Assignments</a>
+            <a href="./calendar.html">Calendar</a>
+            <a href="./grades.html">Grades</a>
+          </div>
+          <br>
+        <iframe src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </body>
 </html>
+
+<style>
+   
+    /* Add a gray background color to the top navigation */
+    .topnav {
+      background-color: #363636;
+      overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #e5e5e5;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #14213d;
+      color: white;
+    }
+    
+    </style>
